@@ -93,7 +93,7 @@ void matrix_scan_user(void) {
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
-        KC_W,        KC_C,           KC_M,       KC_P,        KC_K,          KC_J,       KC_Y,    KC_O,    KC_U,     XXXXXXX,
+        KC_W,        KC_C,           KC_M,       KC_P,        KC_K,          KC_J,       KC_Y,    KC_O,    KC_U,     KC_COMM,
         KC_R,        KC_S,           KC_T,       KC_H,        KC_F,          KC_QUOT,    KC_N,    KC_A,    KC_E,     KC_I,
         KC_Q,        KC_G,           KC_V,       KC_D,        KC_B,          KC_X,       KC_L,    KC_DOT,  KC_SCLN,  KC_Z,
                                                     LT(_NAV, KC_SPC), NUM_OSM,     MO(_SYM),  KC_BSPC
