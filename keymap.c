@@ -115,8 +115,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_NAV] = LAYOUT(
         OS_LGUI,          OS_LALT,        OS_LCTL,    C(KC_A),     C(KC_F),       OSL(_FUNC), SELECT_WORD_BACK, KC_UP,   SELECT_WORD, SELECT_LINE_UP,
-        C(KC_Z),          KC_TAB,         C(KC_C),    A(KC_TAB),   C(KC_V),       BASE,       KC_LEFT,          KC_DOWN, KC_RIGHT,    SELECT_LINE,
-        C(KC_S),     KC_ESC,         C(KC_X),    C(KC_TAB),   XXXXXXX,       XXXXXXX,    XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,
+        C(KC_Z),          KC_ESC,         KC_TAB,     A(KC_TAB),   C(KC_V),       BASE,       KC_LEFT,          KC_DOWN, KC_RIGHT,    SELECT_LINE,
+        C(KC_S),          C(KC_C),        C(KC_X),    C(KC_TAB),   XXXXXXX,       XXXXXXX,    XXXXXXX,          XXXXXXX, XXXXXXX,  XXXXXXX,
                                                     XXXXXXX,          XXXXXXX,     KC_ENT,   TG(_MOUSE)
     ),
 
